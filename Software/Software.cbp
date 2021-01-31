@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Software" />
+		<Option pch_mode="2" />
+		<Option compiler="arm-elf-gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Software" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="arm-elf-gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="depends/adafruit-SD-master-20131105/utility/Sd2Card.cpp" />
+		<Unit filename="depends/adafruit-SD-master-20131105/utility/Sd2Card.h" />
+		<Unit filename="depends/adafruit-SD-master-20131105/utility/Sd2PinMap.h" />
+		<Unit filename="depends/adafruit-SD-master-20131105/utility/SdInfo.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/HardwareSerial.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/SPIFIFO.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/analog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="depends/cores-master-20160302/teensy3/avr_emulation.cpp" />
+		<Unit filename="depends/cores-master-20160302/teensy3/avr_emulation.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/avr_functions.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/core_pins.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/kinetis.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/memcpy-armv7m.S" />
+		<Unit filename="depends/cores-master-20160302/teensy3/mk20dx128.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="depends/cores-master-20160302/teensy3/mk20dx256.ld" />
+		<Unit filename="depends/cores-master-20160302/teensy3/nonstd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="depends/cores-master-20160302/teensy3/pins_arduino.h" />
+		<Unit filename="depends/cores-master-20160302/teensy3/pins_teensy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="depends/cores-master-20160302/teensy3/serial1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="depends/cores-master-20160302/teensy3/usb_names.h" />
+		<Unit filename="depends/spi-master-20150403/SPI.cpp" />
+		<Unit filename="depends/spi-master-20150403/SPI.h" />
+		<Unit filename="include/chs.h" />
+		<Unit filename="include/endian.h" />
+		<Unit filename="include/scsi/inquiry.h" />
+		<Unit filename="include/scsi/load_unload.h" />
+		<Unit filename="include/scsi/mode_page.h" />
+		<Unit filename="include/scsi/mode_parameter.h" />
+		<Unit filename="include/scsi/mode_sense.h" />
+		<Unit filename="include/scsi/prevent_allow_medium_removal.h" />
+		<Unit filename="include/scsi/read.h" />
+		<Unit filename="include/scsi/read_capacity.h" />
+		<Unit filename="include/scsi/read_format_capacities.h" />
+		<Unit filename="include/scsi/report_luns.h" />
+		<Unit filename="include/scsi/request_sense.h" />
+		<Unit filename="include/scsi/scsi.h" />
+		<Unit filename="include/scsi/send_diagnostic.h" />
+		<Unit filename="include/scsi/sense_data.h" />
+		<Unit filename="include/scsi/test_unit_ready.h" />
+		<Unit filename="include/scsi/write.h" />
+		<Unit filename="include/scsi_sd.h" />
+		<Unit filename="include/sd.h" />
+		<Unit filename="include/serialize.h" />
+		<Unit filename="include/usb_bdt.h" />
+		<Unit filename="include/usb_desc.h" />
+		<Unit filename="include/usb_dev.h" />
+		<Unit filename="include/usb_msd.h" />
+		<Unit filename="src/chs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fault.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/scsi_sd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/sd.cpp" />
+		<Unit filename="src/serialize.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/usb_desc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/usb_dev.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/usb_msd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
