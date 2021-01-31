@@ -69,6 +69,7 @@ for /R "%CURDIR%" %%s in (*.s) do %CC% %%s %CPPFLAGS% %CFLAGS% %INCLUDES% -c -o 
 %CC% %LDFLAGS% -o %BUILD%\floppy.elf %OBJS%
 
 :: generate hex file
+md build 2>NUL
 %OBJCOPY% -O ihex -R .eeprom %BUILD%\floppy.elf %BIN%\floppy.hex 
 
 del tmp.txt 2>NUL
