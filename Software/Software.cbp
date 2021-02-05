@@ -22,10 +22,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="depends/adafruit-SD-master-20131105/utility/Sd2Card.cpp" />
-		<Unit filename="depends/adafruit-SD-master-20131105/utility/Sd2Card.h" />
-		<Unit filename="depends/adafruit-SD-master-20131105/utility/Sd2PinMap.h" />
-		<Unit filename="depends/adafruit-SD-master-20131105/utility/SdInfo.h" />
 		<Unit filename="depends/cores-master-20160302/teensy3/HardwareSerial.h" />
 		<Unit filename="depends/cores-master-20160302/teensy3/SPIFIFO.h" />
 		<Unit filename="depends/cores-master-20160302/teensy3/analog.c">
@@ -52,8 +48,6 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="depends/cores-master-20160302/teensy3/usb_names.h" />
-		<Unit filename="depends/spi-master-20150403/SPI.cpp" />
-		<Unit filename="depends/spi-master-20150403/SPI.h" />
 		<Unit filename="include/chs.h" />
 		<Unit filename="include/endian.h" />
 		<Unit filename="include/scsi/inquiry.h" />

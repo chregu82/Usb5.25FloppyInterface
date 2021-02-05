@@ -54,7 +54,7 @@ set LDFLAGS= -Wl,--gc-sections,--defsym=__rtc_localtime=0 --specs=nano.specs
 set LDFLAGS= %LDFLAGS% -mcpu=cortex-m4 -mthumb -T%LINKER_SCRIPT% -Os 
 
 :: What to link
-set OBJS= %BUILD%\chs.o %BUILD%\fault.o %BUILD%\main.o %BUILD%\scsi_sd.o %BUILD%\sd.o %BUILD%\serialize.o %BUILD%\usb_desc.o %BUILD%\usb_dev.o %BUILD%\usb_msd.o %BUILD%\analog.o %BUILD%\avr_emulation.o %BUILD%\memcpy-armv7m.o %BUILD%\mk20dx128.o %BUILD%\nonstd.o %BUILD%\pins_teensy.o %BUILD%\serial1.o %BUILD%\sd2card.o %BUILD%\spi.o       
+set OBJS= %BUILD%\chs.o %BUILD%\fault.o %BUILD%\main.o %BUILD%\scsi_sd.o %BUILD%\sd.o %BUILD%\serialize.o %BUILD%\usb_desc.o %BUILD%\usb_dev.o %BUILD%\usb_msd.o %BUILD%\analog.o %BUILD%\avr_emulation.o %BUILD%\memcpy-armv7m.o %BUILD%\mk20dx128.o %BUILD%\nonstd.o %BUILD%\pins_teensy.o %BUILD%\serial1.o      
 
 :: compile
 del *.o /Q /S 2>NUL
